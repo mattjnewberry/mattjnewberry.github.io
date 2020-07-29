@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Route53, S3, CloudFront, Github Pages and the Stuggles with Hosting
+title: Route53, S3, CloudFront, Github Pages and the Struggles of Hosting
 ---
 
 It seems only fitting that the first post is about the site you're currently on, so I guess we can call this project a success.
