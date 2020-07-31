@@ -22,7 +22,7 @@ The full static website tech stack is as follows:
 - [Route53](https://aws.amazon.com/route53/) for custom domain registration and DNS resolution
 - [Cloudfront](https://aws.amazon.com/cloudfront/) for the CDN service
 - [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) for the public SSL/TLS certificates
-- [Jekyll](https://jekyllrb.com/) + [Jekyll Now Theme](https://jekyllthemes.io/theme/jekyll-now_for the static site generation 
+- [Jekyll](https://jekyllrb.com/) + [Jekyll Now Theme](https://jekyllthemes.io/theme/jekyll-now)for the static site generation 
 
 
 **Why Github Pages and not S3?**
