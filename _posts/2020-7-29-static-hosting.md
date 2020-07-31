@@ -1,6 +1,9 @@
 ---
 layout: post
-title: Route53, S3, CloudFront, Github Pages and the Struggles of Hosting
+title: Route53, S3, Cloudfront, Github Pages and the Struggles of Hosting
+description: Exploring how to utilize AWS Free tier and Github Pages to create a fast,
+maintainable website using Route53, Cloudfront, AWS Certificate Manager, Github Pages and
+Jekyll
 ---
 
 **NOTE:** All costs are correct as of 2020.08.01 and are subject to change.
