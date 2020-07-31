@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Route53, S3, Cloudfront, Github Pages and the Struggles of Hosting
-description: Exploring how to utilize AWS Free tier and Github Pages to create a fast,
+---
+In this project blog I'll be exploring how to utilize AWS Free tier and Github Pages to create a fast,
 maintainable website using Route53, Cloudfront, AWS Certificate Manager, Github Pages and
 Jekyll
----
-
-**NOTE:** All costs are correct as of 2020.08.01 and are subject to change.
 
 It seems only fitting that the first post is about the site you're currently on, so I guess we can call this project a success.
 This post will explain the technologies used to deploy this static site, some tips on getting it working and the endless struggles of routing and DNS caches.
@@ -27,6 +25,8 @@ The full static website tech stack is as follows:
 - [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) for the public SSL/TLS certificates
 - [Jekyll](https://jekyllrb.com/) + [Jekyll Now Theme](https://jekyllthemes.io/theme/jekyll-now)for the static site generation 
 
+
+**NOTE:** All costs are correct as of 2020.08.01 and are subject to change.
 
 **Why Github Pages and not S3?**
 
