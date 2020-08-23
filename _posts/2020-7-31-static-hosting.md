@@ -11,12 +11,12 @@ This post will explain the technologies used to deploy this static site, some ti
 
 If you're just after the tutorial and don't want to read about a backend developer attempting to build front end (understandable), skip to the [tutorial](#tutorial)
 
-### Contents
+# Contents
 - [Introduction](#introduction)
 - [Tutorial](#tutorial)
 - [Closing Thoughts](#Closing-thoughts)
 
-### Introduction
+# Introduction
 
 **Goal:** A inexepensive, visually simple, easiliy maintainable, static website that utilizes the free tier AWS
 ecosystem. 
@@ -67,9 +67,9 @@ why I didn't use alteranatives such as [Hugo](https://gohugo.io/) and [Hexo](htt
 Good question. I'm most familiar was AWS. Sometimes the right tool depends on which tool
 you're most comfortable with (Not always mind).
 
-### Tutorial
+# Tutorial
 
-### Prequisites
+## Prequisites
 - An AWS Account
 - A Github Account
 
@@ -79,7 +79,7 @@ The below image shows the final architecture after following this tutorial:
 
 *Fig 1: Final Architecture*
 
-#### Setting up your domain name
+## Setting up your domain name
 
 First, we'll set up the custom domain name as this can take some time to be registered in the DNS. 
 Github Pages very kindly give us the domain name `${YOUR_GITHUB_USENAME}.github.io` for our site, however something more personal might be
@@ -93,9 +93,9 @@ domain name. Bear in mind the prices differ slightly between the different top l
 
 Amazon will create a route53 hosted zone with the same name as your domain name, we'll come back to this later to create some aliases.
 
-#### Add SSL/TLS Certificate
+## Add SSL/TLS Certificate
 
 *To be continued...*
 
-### Closing Thoughts
+# Closing Thoughts
 
