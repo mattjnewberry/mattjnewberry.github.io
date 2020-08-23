@@ -11,6 +11,11 @@ This post will explain the technologies used to deploy this static site, some ti
 
 If you're just after the tutorial and don't want to read about a backend developer attempting to build front end (understandable), skip to the [tutorial](#tutorial)
 
+### Contents
+- [Introduction](#introduction)
+- [Tutorial](#tutorial)
+- [Closing Thoughts](#')
+
 ### Introduction
 
 **Goal:** A inexepensive, visually simple, easiliy maintainable, static website that utilizes the free tier AWS
@@ -34,7 +39,7 @@ Originally, the design utilied AWS's [S3](https://aws.amazon.com/s3/) service to
 of everything hosted within one space, in this case, an AWS account. S3 has additional benifits, namely
 routing from Route53 to S3 [does not incur any charge](https://aws.amazon.com/route53/pricing/), therefore,
 if you chose not to use the CDN, the only cost of this site is the S3 storage and access charges 
-(Free up to 5GB and 20,000 respectively) and the domain registration ($12 PA for .com).
+(Free up to 5GB and 20,000 respectively), the DNS ($0.59 PCM) and domain registration ($12 PA for .com).
 
 However, when introduction Cloudfront as your CDN, the reduced costs of S3 are no longer applicable.
 Route 53 does not charge for routing to a Cloudfront distribution also and as such the only additional
@@ -64,12 +69,31 @@ you're most comfortable with (Not always mind).
 
 ### Tutorial
 
+### Prequisites
+- An AWS Account
+- A Github Account
+
 Figure 1 shows the final architecture after following this tutorial:
 
-** Coming Soon **
+![_config.yml]({{ site.baseurl }}/images/final-arch.png)
+*Figure 1*
+
+#### Setting up your domain name
+
+First, we'll set up the custom domain name as this can take some time to be registered in the DNS. 
+Github Pages very kindly give us the domain name `${YOUR_GITHUB_USENAME}.github.io` for our site, however something more personal might be
+good (Really it's up you :man_shrugging). 
+
+To register a domain name in the AWS Console, head to Route53 -> Register Domain Name (Figure 2) and follow the steps to pick your custom
+domain name. Bear in mind the prices differ slightly between the different top level domains, for example `.com` is $12 whereas `.me` is $17.
+![_config.yml]({{ site.baseurl }}/images/register-domain-name.png)
+*Figure 2*
+
+Amazon will create a route53 hosted zone with the same name as your domain name, we'll come back to this later to create some aliases.
+
+#### Add SSL/TLS Certificate
+
+*To be continued...*
 
 ### Closing Thoughts
-
-*Coming Soon*
-![_config.yml]({{ site.baseurl }}/images/config.png)
 
