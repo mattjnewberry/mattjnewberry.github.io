@@ -14,7 +14,7 @@ If you're just after the tutorial and don't want to read about a backend develop
 ### Contents
 - [Introduction](#introduction)
 - [Tutorial](#tutorial)
-- [Closing Thoughts](#')
+- [Closing Thoughts](#Closing-thoughts)
 
 ### Introduction
 
@@ -76,19 +76,20 @@ you're most comfortable with (Not always mind).
 The below image shows the final architecture after following this tutorial:
 
 ![_config.yml]({{ site.baseurl }}/images/final-arch.png)
-*Final Architecture*
+
+*Fig 1: Final Architecture*
 
 #### Setting up your domain name
 
 First, we'll set up the custom domain name as this can take some time to be registered in the DNS. 
 Github Pages very kindly give us the domain name `${YOUR_GITHUB_USENAME}.github.io` for our site, however something more personal might be
-good (Really it's up you :man_shrugging:). 
+good (Really it's up you). 
 
 To register a domain name in the AWS Console, head to Route53 -> Register Domain Name and follow the steps to pick your custom
 domain name. Bear in mind the prices differ slightly between the different top level domains, for example `.com` is $12 whereas `.me` is $17.
 
 ![_config.yml]({{ site.baseurl }}/images/register-domain-name.png)
-*Registering a domain on AWS*
+*Fig 2: Registering a domain on AWS*
 
 Amazon will create a route53 hosted zone with the same name as your domain name, we'll come back to this later to create some aliases.
 
