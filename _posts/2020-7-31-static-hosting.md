@@ -95,6 +95,10 @@ Amazon will create a route53 hosted zone with the same name as your domain name,
 
 ## Add SSL/TLS Certificate
 
+Next, we're going to request a SSL/TLS certicate for our domain. Since our domain is resolved in Route53, Amazaon can verify the domain for us. To request a certificate, head to
+AWS certicate Manager -> Request a certicate. Follow the process to request a certicate. A good suggestion is to request a certificate that includes both your domain (e.g mattjnewberry.com) 
+and using a wildcard to any lower level domains (e.g *.mattjnewberry.com).
+
 *To be continued...*
 
 # Closing Thoughts
