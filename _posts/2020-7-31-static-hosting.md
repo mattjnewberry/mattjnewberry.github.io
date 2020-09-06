@@ -4,7 +4,7 @@ title: Route53, S3, Cloudfront, Github Pages and the Struggles of Hosting
 ---
 In this project blog I'll be exploring how to utilize AWS Free tier and Github Pages to create a fast,
 maintainable website using Route53, Cloudfront, AWS Certificate Manager, Github Pages and
-Jekyll
+Jekyll.
 
 It seems only fitting that the first post is about the site you're currently on, so I guess we can call this project a success.
 This post will explain the technologies used to deploy this static site, some tips on getting it working and the endless struggles of routing and DNS caches.
@@ -21,7 +21,6 @@ If you're just after the tutorial and don't want to read about a backend develop
 **Goal:** A inexepensive, visually simple, easiliy maintainable, static website that utilizes the free tier AWS
 ecosystem. 
 
-
 The full static website tech stack is as follows:
 
 - [Github Pages](https://pages.github.com/) for the hosting
@@ -29,7 +28,6 @@ The full static website tech stack is as follows:
 - [Cloudfront](https://aws.amazon.com/cloudfront/) for the CDN service
 - [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/) for the public SSL/TLS certificates
 - [Jekyll](https://jekyllrb.com/) + [Jekyll Now Theme](https://jekyllthemes.io/theme/jekyll-now) for the static site generation 
-
 
 **NOTE:** All costs are correct as of 2020.08.01 and are subject to change.
 
@@ -79,7 +77,7 @@ The below image shows the final architecture after following this tutorial:
 
 *Fig 1: Final Architecture*
 
-## Setting up your domain name
+## Setting up our custom domain name in Route53
 
 First, we'll set up the custom domain name as this can take some time to be registered in the DNS. 
 Github Pages very kindly give us the domain name `${YOUR_GITHUB_USENAME}.github.io` for our site, however something more personal might be
@@ -93,13 +91,38 @@ domain name. Bear in mind the prices differ slightly between the different top l
 
 Amazon will create a route53 hosted zone with the same name as your domain name, we'll come back to this later to create some aliases.
 
-## Add SSL/TLS Certificate
+## Add SSL/TLS Certificate to our custom domain name
 
 Next, we're going to request a SSL/TLS certicate for our domain. Since our domain is resolved in Route53, Amazaon can verify the domain for us. To request a certificate, head to
-AWS certicate Manager -> Request a certicate. Follow the process to request a certicate. A good suggestion is to request a certificate that includes both your domain (e.g mattjnewberry.com) 
+AWS certicate Manager -> Request a certicate. Follow the process to request a public certicate. A good suggestion is to request a certificate that includes both your domain (e.g mattjnewberry.com) 
 and using a wildcard to any lower level domains (e.g *.mattjnewberry.com).
 
-*To be continued...*
+Amazon will usually validate the domain name in a couple of minutes.
+
+## Creating your Github Page
+
+The actual hosting of the website is using Github Pages, which offers one personal static website for free. Jekyll is a powerful static site generator with
+pre-existing easy-to-configure themes. But more importently, has built-in integration with Github Pages. This site was build using the jekyll-now theme, and can be replicated
+by following the steps in this repository (Yes, it's as easy as forking a repository).
+
+Once Github has realised it's a repository for our personal static website, additional options will appeaer in the repository settings. Make sure to add your custom domain whilst
+we're here!
+
+![_config.yml]({{ site.baseurl }}/images/github-pages-repo-settings.png)
+*Fig 3: Github Pages repository setttings*
+
+## Adding Cloudfront
+
+*To be contiued...*
+
+## Adding Route53 aliases 
+
+*To be contiued...*
 
 # Closing Thoughts
+
+*To be contiued...*
+
+(Yes, I realise jekyll have a draft functionality to avoid having incomplete published pages but it will be finished soon, I promise! 
+If you're interested in more, do reach out to me via the contacts section)
 
