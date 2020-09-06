@@ -105,8 +105,7 @@ The actual hosting of the website is using Github Pages, which offers one person
 pre-existing easy-to-configure themes. But more importently, has built-in integration with Github Pages. This site was build using the jekyll-now theme, and can be replicated
 by following the steps in this repository (Yes, it's as easy as forking a repository).
 
-Once Github has realised it's a repository for our personal static website, additional options will appeaer in the repository settings. Make sure to add your custom domain whilst
-we're here!
+Once Github has realised it's a repository for our personal static website, additional options will appeaer in the repository settings. Make sure to add your custom domain whilst we're here!
 
 ![_config.yml]({{ site.baseurl }}/images/github-pages-repo-settings.png)
 *Fig 3: Github Pages repository setttings*
@@ -123,6 +122,6 @@ we're here!
 
 *To be contiued...*
 
-(Yes, I realise jekyll have a draft functionality to avoid having incomplete published pages but it will be finished soon, I promise! 
+(Yes, I realise jekyll has a draft functionality to avoid having incomplete published pages but it will be finished soon, I promise! 
 If you're interested in more, do reach out to me via the contacts section)
 
