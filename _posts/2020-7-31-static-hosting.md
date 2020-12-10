@@ -98,7 +98,7 @@ Amazon will create a route53 hosted zone with the same name as your domain name,
 
 ## Add SSL/TLS Certificate to our custom domain name
 
-:warning: [Why you may not want to do this](#cautionary-tale)
+**NOTE:** [Why you may not want to do this](#cautionary-tale)
 
 Next, we're going to request a SSL/TLS certicate for our domain. Since our domain is resolved in Route53, Amazaon can verify the domain for us. To request a certificate, head to
 AWS certicate Manager -> Request a certicate. Follow the process to request a public certicate. A good suggestion is to request a certificate that includes both your domain (e.g mattjnewberry.com)
@@ -119,7 +119,7 @@ _Fig 3: Github Pages repository setttings_
 
 ## Adding Cloudfront
 
-:warning: [Why you may not want to do this](#cautionary-tale)
+**NOTE:** [Why you may not want to do this](#cautionary-tale)
 
 Cloudfront is a CDN (Content Delivery Network), which means we can cache our origin resources closer to clients and improve our network performance.
 
@@ -163,7 +163,7 @@ To create our subdomain alias:
 
 ## Cautionary Tale
 
-The original plan for this blog post was to include a CloudFront setup, and it did for a month or so. But then something terrible happened. Cloudfront could no longer serve the Github Pages origin. No changes in configuration, it just stopped working - such is software I suppose :man_shrugging:.
+The original plan for this blog post was to include a CloudFront setup, and it did for a month or so. But then something terrible happened. Cloudfront could no longer serve the Github Pages origin. No changes in configuration, it just stopped working - such is software I suppose.
 
 It's with regret that when using Github pages as our origin, I advise against using a CDN - it's a classic case of over engineering. If your site is hosted on Github Pages, it's unlikely you need a CDN. If you want to use a CDN, I highly suggest hosting yourself (e.g S3) where you have access to the origin server.
 
@@ -173,6 +173,6 @@ Creating this website and writing about my experiences has been a suprisinly dif
 
 Using AWS for the networking but letting Github Pages deal with the hosting felt just about right for me at this point in time but that doesn't mean it's right for you, or right for me in 10 years or 10 weeks and I think this is a constant challenge when build something new. It's important to take the time, try each solution as a prototype and finally commit to whichever solution you pick whilst recognizing nothing in software is permenant.
 
-Thank you for reading :smile:
+Thank you for reading!
 
 If you're interested in more, do reach out to me via the <a href="../about">contact section</a>)
