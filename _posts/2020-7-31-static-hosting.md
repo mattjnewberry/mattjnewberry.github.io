@@ -3,7 +3,7 @@ layout: post
 title: Route53, S3, Cloudfront, Github Pages and the Struggles of Hosting
 ---
 
-In this project blog I'll be exploring how to utilize AWS Free tier and Github Pages to create a fast,
+In this project blog I'll be exploring how to utilize AWS Free tier and Github to create a fast,
 maintainable website using Route53, \*~~Cloudfront~~, ~~AWS Certificate Manager~~, Github Pages and
 Jekyll.
 
@@ -169,7 +169,7 @@ It's with regret that when using Github pages as our origin, I advise against us
 
 # Closing Thoughts
 
-Creating this website and writing about my experiences has been a suprisinly difficult endevour. Not becuase anything is particulary challenging (except perhaps the spelling), but rather the opposite. There is an abundance of free hosting options and finding the one that fits your use case is tricky. Some may want more freedom, others want to abstract as much of deployment as possible and it's not always easy to find the balance.
+Creating this website and writing about my experiences has been a suprisinly difficult endevour. Not becuase anything is particulary challenging (except perhaps the spelling), but rather the opposite. There is an abundance of free hosting options and finding the one that fits your use case is tricky. Some may want more freedom, others want to abstract as much of the development and deployment as possible and it's not always easy to find the balance.
 
 Using AWS for the networking but letting Github Pages deal with the hosting felt just about right for me at this point in time but that doesn't mean it's right for you, or right for me in 10 years or 10 weeks and I think this is a constant challenge when build something new. It's important to take the time, try each solution as a prototype and finally commit to whichever solution you pick whilst recognizing nothing in software is permenant.
 
