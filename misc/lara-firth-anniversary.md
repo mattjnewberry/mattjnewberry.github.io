@@ -31,17 +31,11 @@ Perhaps reviewing message counts and averages no longer reflects how we experien
 
 ## Timeline
 
-The data doesn't tell the whole story, so hopefully a timeline of our relationship add's some colour...
+The data doesn't tell the whole story, so hopefully a timeline of our relationship adds some colour...
 
-_*Note: Availability of "nice" photos was a key factor in an events inclusion in the timeline, so some meaningful moments aren’t shown here — that doesn’t mean they weren’t important._
+_*Note: Availability of "nice" photos was a key factor in an event's inclusion in the timeline, so some meaningful moments aren’t shown here — that doesn’t mean they weren’t important.*_
 
 <div id="timeline-wrapper">
-  <div id="timeline-controls">
-    <button id="zoom-in">+</button>
-    <button id="zoom-out">-</button>
-    <button id="reset-zoom">Reset</button>
-  </div>
-
   <div id="timeline-container">
     <div class="timeline-line"></div>
 
@@ -49,7 +43,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       <div class="timeline-marker">❤️</div>
       <div class="timeline-body">
         <div class="timeline-head">23 April 2021</div>
-        <div class="timeline-title">First date</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
     </article>
@@ -58,7 +51,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       <div class="timeline-marker">💌</div>
       <div class="timeline-body">
         <div class="timeline-head">17 October 2021</div>
-        <div class="timeline-title">First “I love you”</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
     </article>
@@ -69,7 +61,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       </div>
       <div class="timeline-body">
         <div class="timeline-head">19 November 2021</div>
-        <div class="timeline-title">Captured moment</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
     </article>
@@ -80,7 +71,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       </div>
       <div class="timeline-body">
         <div class="timeline-head">10 May 2022</div>
-        <div class="timeline-title">Captured moment</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
     </article>
@@ -91,7 +81,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       </div>
       <div class="timeline-body">
         <div class="timeline-head">17 September 2022</div>
-        <div class="timeline-title">Captured moment</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
     </article>
@@ -102,7 +91,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       </div>
       <div class="timeline-body">
         <div class="timeline-head">30 April 2023</div>
-        <div class="timeline-title">Captured moment</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
     </article>
@@ -113,7 +101,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       </div>
       <div class="timeline-body">
         <div class="timeline-head">4 September 2023</div>
-        <div class="timeline-title">Captured moment</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
     </article>
@@ -122,7 +109,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       <div class="timeline-marker">🏡</div>
       <div class="timeline-body">
         <div class="timeline-head">14 October 2023</div>
-        <div class="timeline-title">Moved in together</div>
         <div class="timeline-copy">Our first place at 7 Holbreck Place.</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
@@ -134,7 +120,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       </div>
       <div class="timeline-body">
         <div class="timeline-head">18 May 2024</div>
-        <div class="timeline-title">Captured moment</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
     </article>
@@ -145,7 +130,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       </div>
       <div class="timeline-body">
         <div class="timeline-head">12 September 2024</div>
-        <div class="timeline-title">Captured moment</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
     </article>
@@ -156,7 +140,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       </div>
       <div class="timeline-body">
         <div class="timeline-head">14 October 2024</div>
-        <div class="timeline-title">Captured moment</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
     </article>
@@ -167,7 +150,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       </div>
       <div class="timeline-body">
         <div class="timeline-head">31 December 2024</div>
-        <div class="timeline-title">Captured moment</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
     </article>
@@ -176,7 +158,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       <div class="timeline-marker">🧱</div>
       <div class="timeline-body">
         <div class="timeline-head">6 March 2025</div>
-        <div class="timeline-title">Bought our first house</div>
         <div class="timeline-copy">The renovations begin... and continue.</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
@@ -188,7 +169,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       </div>
       <div class="timeline-body">
         <div class="timeline-head">29 March 2025</div>
-        <div class="timeline-title">Captured moment</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
     </article>
@@ -199,7 +179,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       </div>
       <div class="timeline-body">
         <div class="timeline-head">15 November 2025</div>
-        <div class="timeline-title">Captured moment</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
     </article>
@@ -210,7 +189,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
       </div>
       <div class="timeline-body">
         <div class="timeline-head">9 March 2026</div>
-        <div class="timeline-title">Captured moment</div>
         <div class="timeline-note" contenteditable="true"></div>
       </div>
     </article>
@@ -230,35 +208,26 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
   padding: 0 10px;
 }
 
-#timeline-controls {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 28px;
-}
-
-#timeline-controls button {
-  border: 1px solid #cbd5e1;
-  background: white;
-  color: #1e293b;
-  font-weight: 700;
-  border-radius: 9999px;
-  width: 42px;
-  height: 42px;
-  cursor: pointer;
-  transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
-}
-
-#timeline-controls button:hover {
-  background: #f8fafc;
-  transform: translateY(-1px);
-  border-color: #94a3b8;
-}
-
 #timeline-container {
   position: relative;
   overflow: hidden;
   padding: 20px 0;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#timeline-container::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background: rgba(37, 99, 235, 0.2);
+  transform: translateX(-50%);
+}
+
+.timeline-line {
+  display: none;
 }
 
 .timeline-line {
@@ -275,18 +244,19 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
 .timeline-item {
   position: relative;
   display: grid;
-  grid-template-columns: 70px minmax(0, 1fr);
-  gap: 18px;
+  grid-template-columns: 100px minmax(0, 1fr);
+  gap: 22px;
   align-items: start;
-  padding: 16px 20px;
-  margin-bottom: 28px;
-  background: rgba(255,255,255,0.9);
-  border: 1px solid #e2e8f0;
-  border-radius: 24px;
-  box-shadow: 0 22px 60px rgba(15,23,42,0.06);
+  padding: 22px 26px;
+  margin-bottom: 32px;
+  background: rgba(255,255,255,0.96);
+  border: 1px solid rgba(148,163,184,0.25);
+  border-radius: 32px;
+  box-shadow: 0 28px 80px rgba(15,23,42,0.08);
+  backdrop-filter: blur(8px);
   opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  transform: translateY(36px);
+  transition: opacity 0.85s ease, transform 0.85s ease;
 }
 
 .timeline-item.visible {
@@ -297,27 +267,27 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
 .timeline-item::before {
   content: '';
   position: absolute;
-  top: 28px;
+  top: 34px;
   left: calc(50% - 2px);
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   background: white;
-  border: 4px solid #2563eb;
+  border: 5px solid #2563eb;
   border-radius: 50%;
   transform: translateX(-50%);
   z-index: 1;
 }
 
 .timeline-marker {
-  width: 70px;
-  height: 70px;
-  min-width: 70px;
-  border-radius: 24px;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
+  border-radius: 28px;
+  background: linear-gradient(180deg, #eff6ff 0%, #f8fafc 100%);
+  border: 1px solid rgba(148,163,184,0.24);
   display: grid;
   place-items: center;
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: #2563eb;
 }
 
@@ -325,42 +295,49 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 24px;
 }
 
 .timeline-body {
   display: grid;
-  gap: 10px;
+  gap: 14px;
 }
 
 .timeline-head {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #1e293b;
-}
-
-.timeline-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 800;
+  letter-spacing: 0.02em;
   color: #0f172a;
+  text-transform: uppercase;
 }
 
 .timeline-copy {
-  font-size: 0.96rem;
+  font-size: 0.98rem;
   color: #475569;
-  line-height: 1.65;
+  line-height: 1.7;
 }
 
 .timeline-note {
-  min-height: 90px;
-  padding: 14px;
-  border-radius: 18px;
-  background: #f8fafc;
-  border: 1px dashed #cbd5e1;
+  min-height: 110px;
+  padding: 18px;
+  border-radius: 28px;
+  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+  border: 1px dashed rgba(148,163,184,0.4);
   color: #334155;
-  font-size: 0.95rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.75;
   outline: none;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.timeline-note:focus {
+  border-color: #2563eb;
+  background: #eff6ff;
+}
+
+.timeline-note:empty:before {
+  content: "Add your snippet here...";
+  color: #94a3b8;
 }
 
 .timeline-note:empty:before {
@@ -417,29 +394,6 @@ _*Note: Availability of "nice" photos was a key factor in an events inclusion in
 </style>
 
 <script>
-let scale = 1;
-
-function zoomIn() {
-  scale = Math.min(1.8, scale + 0.1);
-  updateScale();
-}
-
-function zoomOut() {
-  scale = Math.max(0.8, scale - 0.1);
-  updateScale();
-}
-
-function resetZoom() {
-  scale = 1;
-  updateScale();
-}
-
-function updateScale() {
-  const container = document.querySelector('.timeline-container');
-  container.style.transform = `scale(${scale})`;
-  container.style.transformOrigin = 'top center';
-}
-
 function openModal(src) {
   document.getElementById('modal-image').src = src;
   document.getElementById('image-modal').style.display = 'block';
@@ -450,10 +404,6 @@ function closeModal() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  document.getElementById('zoom-in').addEventListener('click', zoomIn);
-  document.getElementById('zoom-out').addEventListener('click', zoomOut);
-  document.getElementById('reset-zoom').addEventListener('click', resetZoom);
-
   const items = document.querySelectorAll('.timeline-item');
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
