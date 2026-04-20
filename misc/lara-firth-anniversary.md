@@ -4,9 +4,9 @@ title: Matt and Lara - 5 Year Recap
 permalink: /happy-fifth-anniversary-lara/
 ---
 
-In a follow up post to the [original WhatApp text analysis](https://mattjnewberry.com/merry-xmas-lara/), here's a 5 Year recap. 
+In a follow-up post to the [original WhatsApp text analysis](https://mattjnewberry.com/merry-xmas-lara/), here's a 5 year recap.
 
-Over the 1,800 days since our first message, we've exchanged _**84746**_ messages. Matt sent _**44365**_, whilst Lara sent _**40381**_. That's a difference of _**3984**_ messages, it looks like Lara's got some catching up to do in ~~2023~~ 2026!
+Over 1,800 days since our first message, we've exchanged _**84,746**_ messages. Matt sent _**44,365**_, while Lara sent _**40,381**_. That's a difference of _**3,984**_ messages — it looks like Lara's got some catching up to do in ~~2023~~ 2026!
 
 ## A 5000ft view
 
@@ -17,122 +17,201 @@ Let's take a look at some updated graphs for the same metrics we reviewed last t
 
 _Fig 1: WhatsApp Messages By Month_
 
-![_config.yml]({{ site.baseurl }}/images/whatsapp-average-message-length-by-month.png)
+![_config.yml]({{ site.baseurl }}/images/fifth_year_anniversary/whatsapp-average-message-length-by-month.png)
 
 _Fig 2: WhatsApp Average Message Length By Month_
 
-![_config.yml]({{ site.baseurl }}/images/whatsapp-messages-by-hour.png)
+![_config.yml]({{ site.baseurl }}/images/fifth_year_anniversary/whatsapp-messages-by-hour.png)
 
 _Fig 3: WhatsApp Messages By Hour_
 
-The most noticeable difference is the drop in messages when we moved in together in Septermber 2023, although this is to be expected. It's interesting how the average message length had stabilized around a year before we moved in together and unlike message count, wasn't impacted by the change. The hourly messaage counts do show that we did (finally) message between the hours of 5am-6am.
+The most noticeable difference is the drop in messages when we moved in together in September 2023, which is probably expected. It's interesting that average message length had stabilized around a year before the move, and unlike message count, it wasn’t impacted by the change. The hourly message counts show that we did (finally) message between 5am and 6am.
 
-Perhaps reviewing messages counts and averages no longer reflects how we experience our relationship...
- 
-## The Timeline
+Perhaps reviewing message counts and averages no longer reflects how we experience our relationship.
 
-The data doesn't tell us the whole story, but the change did inspire me to review a timeline of our relathionship. 
+## Timeline
 
-Key Dates without pictures:
+The data doesn't tell the whole story, so hopefully a timeline of our relationship add's some colour...
 
-23rd April 2021 - first date
-14Th October 2023 - Moving in together at our first place (7 Holbreck Place)
-6th March 2025 - We buy our first house! The renovations begin...(and continue)
+<div id="timeline-wrapper">
+  <div id="timeline-controls">
+    <button id="zoom-in">+</button>
+    <button id="zoom-out">-</button>
+    <button id="reset-zoom">Reset</button>
+  </div>
 
-## Interactive Timeline
+  <div id="timeline-container">
+    <div class="timeline-line"></div>
 
-<div id="timeline-controls">
-  <button id="zoom-in">+</button>
-  <button id="zoom-out">-</button>
-  <button id="reset-zoom">Reset</button>
-</div>
+    <article class="timeline-item timeline-emoji">
+      <div class="timeline-marker">❤️</div>
+      <div class="timeline-body">
+        <div class="timeline-head">23 April 2021</div>
+        <div class="timeline-title">First date</div>
+        <div class="timeline-note" contenteditable="true"></div>
+      </div>
+    </article>
 
-<div id="timeline-container">
-  <div class="timeline">
-    <div class="timeline-item">
-      <div class="timeline-date">19 November 2021</div>
-      <div class="timeline-content">
-        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG_20211119_230111.jpg" alt="19 Nov 2021" class="timeline-image" onclick="openModal(this.src)">
-        <div class="timeline-text" contenteditable="true">Add your snippet here...</div>
+    <article class="timeline-item timeline-emoji">
+      <div class="timeline-marker">💌</div>
+      <div class="timeline-body">
+        <div class="timeline-head">17 October 2021</div>
+        <div class="timeline-title">First “I love you”</div>
+        <div class="timeline-note" contenteditable="true"></div>
       </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-date">10 May 2022</div>
-      <div class="timeline-content">
-        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG_20220510_195238.jpg" alt="10 May 2022" class="timeline-image" onclick="openModal(this.src)">
-        <div class="timeline-text" contenteditable="true">Add your snippet here...</div>
+    </article>
+
+    <article class="timeline-item timeline-photo">
+      <div class="timeline-marker">
+        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG_20211119_230111.jpg" alt="19 Nov 2021">
       </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-date">17 September 2022</div>
-      <div class="timeline-content">
-        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG_20220917_133328.jpg" alt="17 Sep 2022" class="timeline-image" onclick="openModal(this.src)">
-        <div class="timeline-text" contenteditable="true">Add your snippet here...</div>
+      <div class="timeline-body">
+        <div class="timeline-head">19 November 2021</div>
+        <div class="timeline-title">Captured moment</div>
+        <div class="timeline-note" contenteditable="true"></div>
       </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-date">30 April 2023</div>
-      <div class="timeline-content">
-        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20230430134843.jpg" alt="30 Apr 2023" class="timeline-image" onclick="openModal(this.src)">
-        <div class="timeline-text" contenteditable="true">Add your snippet here...</div>
+    </article>
+
+    <article class="timeline-item timeline-photo">
+      <div class="timeline-marker">
+        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG_20220510_195238.jpg" alt="10 May 2022">
       </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-date">4 September 2023</div>
-      <div class="timeline-content">
-        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20230904125933.jpg" alt="4 Sep 2023" class="timeline-image" onclick="openModal(this.src)">
-        <div class="timeline-text" contenteditable="true">Add your snippet here...</div>
+      <div class="timeline-body">
+        <div class="timeline-head">10 May 2022</div>
+        <div class="timeline-title">Captured moment</div>
+        <div class="timeline-note" contenteditable="true"></div>
       </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-date">18 May 2024</div>
-      <div class="timeline-content">
-        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20240518182718.jpg" alt="18 May 2024" class="timeline-image" onclick="openModal(this.src)">
-        <div class="timeline-text" contenteditable="true">Add your snippet here...</div>
+    </article>
+
+    <article class="timeline-item timeline-photo">
+      <div class="timeline-marker">
+        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG_20220917_133328.jpg" alt="17 Sep 2022">
       </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-date">12 September 2024</div>
-      <div class="timeline-content">
-        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20240912115832.jpg" alt="12 Sep 2024" class="timeline-image" onclick="openModal(this.src)">
-        <div class="timeline-text" contenteditable="true">Add your snippet here...</div>
+      <div class="timeline-body">
+        <div class="timeline-head">17 September 2022</div>
+        <div class="timeline-title">Captured moment</div>
+        <div class="timeline-note" contenteditable="true"></div>
       </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-date">14 October 2024</div>
-      <div class="timeline-content">
-        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20241014102959.jpg" alt="14 Oct 2024" class="timeline-image" onclick="openModal(this.src)">
-        <div class="timeline-text" contenteditable="true">Add your snippet here...</div>
+    </article>
+
+    <article class="timeline-item timeline-photo">
+      <div class="timeline-marker">
+        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20230430134843.jpg" alt="30 Apr 2023">
       </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-date">31 December 2024</div>
-      <div class="timeline-content">
-        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20241231194646.jpg" alt="31 Dec 2024" class="timeline-image" onclick="openModal(this.src)">
-        <div class="timeline-text" contenteditable="true">Add your snippet here...</div>
+      <div class="timeline-body">
+        <div class="timeline-head">30 April 2023</div>
+        <div class="timeline-title">Captured moment</div>
+        <div class="timeline-note" contenteditable="true"></div>
       </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-date">29 March 2025</div>
-      <div class="timeline-content">
-        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20250329124425.jpg" alt="29 Mar 2025" class="timeline-image" onclick="openModal(this.src)">
-        <div class="timeline-text" contenteditable="true">Add your snippet here...</div>
+    </article>
+
+    <article class="timeline-item timeline-photo">
+      <div class="timeline-marker">
+        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20230904125933.jpg" alt="4 Sep 2023">
       </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-date">15 November 2025</div>
-      <div class="timeline-content">
-        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20251115172450.jpg" alt="15 Nov 2025" class="timeline-image" onclick="openModal(this.src)">
-        <div class="timeline-text" contenteditable="true">Add your snippet here...</div>
+      <div class="timeline-body">
+        <div class="timeline-head">4 September 2023</div>
+        <div class="timeline-title">Captured moment</div>
+        <div class="timeline-note" contenteditable="true"></div>
       </div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-date">9 March 2026</div>
-      <div class="timeline-content">
-        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20260309121734.jpg" alt="9 Mar 2026" class="timeline-image" onclick="openModal(this.src)">
-        <div class="timeline-text" contenteditable="true">Add your snippet here...</div>
+    </article>
+
+    <article class="timeline-item timeline-emoji">
+      <div class="timeline-marker">🏡</div>
+      <div class="timeline-body">
+        <div class="timeline-head">14 October 2023</div>
+        <div class="timeline-title">Moved in together</div>
+        <div class="timeline-copy">Our first place at 7 Holbreck Place.</div>
+        <div class="timeline-note" contenteditable="true"></div>
       </div>
-    </div>
+    </article>
+
+    <article class="timeline-item timeline-photo">
+      <div class="timeline-marker">
+        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20240518182718.jpg" alt="18 May 2024">
+      </div>
+      <div class="timeline-body">
+        <div class="timeline-head">18 May 2024</div>
+        <div class="timeline-title">Captured moment</div>
+        <div class="timeline-note" contenteditable="true"></div>
+      </div>
+    </article>
+
+    <article class="timeline-item timeline-photo">
+      <div class="timeline-marker">
+        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20240912115832.jpg" alt="12 Sep 2024">
+      </div>
+      <div class="timeline-body">
+        <div class="timeline-head">12 September 2024</div>
+        <div class="timeline-title">Captured moment</div>
+        <div class="timeline-note" contenteditable="true"></div>
+      </div>
+    </article>
+
+    <article class="timeline-item timeline-photo">
+      <div class="timeline-marker">
+        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20241014102959.jpg" alt="14 Oct 2024">
+      </div>
+      <div class="timeline-body">
+        <div class="timeline-head">14 October 2024</div>
+        <div class="timeline-title">Captured moment</div>
+        <div class="timeline-note" contenteditable="true"></div>
+      </div>
+    </article>
+
+    <article class="timeline-item timeline-photo">
+      <div class="timeline-marker">
+        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20241231194646.jpg" alt="31 Dec 2024">
+      </div>
+      <div class="timeline-body">
+        <div class="timeline-head">31 December 2024</div>
+        <div class="timeline-title">Captured moment</div>
+        <div class="timeline-note" contenteditable="true"></div>
+      </div>
+    </article>
+
+    <article class="timeline-item timeline-emoji">
+      <div class="timeline-marker">🧱</div>
+      <div class="timeline-body">
+        <div class="timeline-head">6 March 2025</div>
+        <div class="timeline-title">Bought our first house</div>
+        <div class="timeline-copy">The renovations begin... and continue.</div>
+        <div class="timeline-note" contenteditable="true"></div>
+      </div>
+    </article>
+
+    <article class="timeline-item timeline-photo">
+      <div class="timeline-marker">
+        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20250329124425.jpg" alt="29 Mar 2025">
+      </div>
+      <div class="timeline-body">
+        <div class="timeline-head">29 March 2025</div>
+        <div class="timeline-title">Captured moment</div>
+        <div class="timeline-note" contenteditable="true"></div>
+      </div>
+    </article>
+
+    <article class="timeline-item timeline-photo">
+      <div class="timeline-marker">
+        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20251115172450.jpg" alt="15 Nov 2025">
+      </div>
+      <div class="timeline-body">
+        <div class="timeline-head">15 November 2025</div>
+        <div class="timeline-title">Captured moment</div>
+        <div class="timeline-note" contenteditable="true"></div>
+      </div>
+    </article>
+
+    <article class="timeline-item timeline-photo">
+      <div class="timeline-marker">
+        <img src="{{ site.baseurl }}/images/fifth_year_anniversary/IMG20260309121734.jpg" alt="9 Mar 2026">
+      </div>
+      <div class="timeline-body">
+        <div class="timeline-head">9 March 2026</div>
+        <div class="timeline-title">Captured moment</div>
+        <div class="timeline-note" contenteditable="true"></div>
+      </div>
+    </article>
   </div>
 </div>
 
@@ -143,125 +222,195 @@ Key Dates without pictures:
 </div>
 
 <style>
+#timeline-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 #timeline-controls {
-  text-align: center;
-  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 28px;
 }
 
 #timeline-controls button {
-  margin: 0 5px;
-  padding: 5px 10px;
+  border: 1px solid #cbd5e1;
+  background: white;
+  color: #1e293b;
+  font-weight: 700;
+  border-radius: 9999px;
+  width: 42px;
+  height: 42px;
   cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+
+#timeline-controls button:hover {
+  background: #f8fafc;
+  transform: translateY(-1px);
+  border-color: #94a3b8;
 }
 
 #timeline-container {
-  overflow-x: auto;
-  overflow-y: hidden;
-  width: 100%;
-}
-
-.timeline {
   position: relative;
-  max-width: 800px;
-  margin: 0 auto;
-  transform-origin: top center;
-  transition: transform 0.3s ease;
+  overflow: hidden;
+  padding: 20px 0;
 }
 
-.timeline::before {
-  content: '';
+.timeline-line {
   position: absolute;
   left: 50%;
-  width: 2px;
+  top: 0;
+  width: 4px;
   height: 100%;
-  background: #333;
+  background: linear-gradient(180deg, #2563eb 0%, rgba(37,99,235,0.15) 100%);
   transform: translateX(-50%);
+  border-radius: 4px;
 }
 
 .timeline-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 50px;
   position: relative;
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  padding: 16px 20px;
+  margin-bottom: 28px;
+  background: rgba(255,255,255,0.9);
+  border: 1px solid #e2e8f0;
+  border-radius: 24px;
+  box-shadow: 0 22px 60px rgba(15,23,42,0.06);
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
-.timeline-item:nth-child(even) {
-  flex-direction: row-reverse;
+.timeline-item.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.timeline-item:nth-child(even) .timeline-content {
-  text-align: right;
-}
-
-.timeline-date {
-  flex: 0 0 150px;
-  font-weight: bold;
-  color: #555;
-  text-align: center;
-}
-
-.timeline-content {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.timeline-image {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: 28px;
+  left: calc(50% - 2px);
+  width: 12px;
+  height: 12px;
+  background: white;
+  border: 4px solid #2563eb;
   border-radius: 50%;
-  cursor: pointer;
-  border: 2px solid #ddd;
-  transition: border-color 0.3s;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 
-.timeline-image:hover {
-  border-color: #333;
+.timeline-marker {
+  width: 70px;
+  height: 70px;
+  min-width: 70px;
+  border-radius: 24px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  display: grid;
+  place-items: center;
+  font-size: 1.7rem;
+  color: #2563eb;
 }
 
-.timeline-text {
-  flex: 1;
-  min-height: 60px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background: #f9f9f9;
-  font-size: 14px;
+.timeline-marker img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
-/* Modal styles */
+.timeline-body {
+  display: grid;
+  gap: 10px;
+}
+
+.timeline-head {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.timeline-title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.timeline-copy {
+  font-size: 0.96rem;
+  color: #475569;
+  line-height: 1.65;
+}
+
+.timeline-note {
+  min-height: 90px;
+  padding: 14px;
+  border-radius: 18px;
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  color: #334155;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  outline: none;
+}
+
+.timeline-note:empty:before {
+  content: "Add your snippet here...";
+  color: #94a3b8;
+}
+
 .modal {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 9999;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(15,23,42,0.9);
 }
 
 .modal-content {
   margin: auto;
   display: block;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 92%;
+  max-height: 92%;
+  border-radius: 18px;
 }
 
 .close {
   position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
+  top: 22px;
+  right: 28px;
+  color: #f8fafc;
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700;
   cursor: pointer;
 }
 
 .close:hover {
-  color: #bbb;
+  color: #cbd5e1;
+}
+
+@media (max-width: 740px) {
+  .timeline-item {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-item::before {
+    left: 18px;
+  }
+
+  .timeline-marker {
+    margin-left: 0;
+  }
 }
 </style>
 
@@ -269,12 +418,12 @@ Key Dates without pictures:
 let scale = 1;
 
 function zoomIn() {
-  scale += 0.1;
+  scale = Math.min(1.8, scale + 0.1);
   updateScale();
 }
 
 function zoomOut() {
-  scale = Math.max(0.5, scale - 0.1);
+  scale = Math.max(0.8, scale - 0.1);
   updateScale();
 }
 
@@ -284,14 +433,11 @@ function resetZoom() {
 }
 
 function updateScale() {
-  document.querySelector('.timeline').style.transform = `scale(${scale})`;
+  const container = document.querySelector('.timeline-container');
+  container.style.transform = `scale(${scale})`;
+  container.style.transformOrigin = 'top center';
 }
 
-document.getElementById('zoom-in').addEventListener('click', zoomIn);
-document.getElementById('zoom-out').addEventListener('click', zoomOut);
-document.getElementById('reset-zoom').addEventListener('click', resetZoom);
-
-// Modal functions
 function openModal(src) {
   document.getElementById('modal-image').src = src;
   document.getElementById('image-modal').style.display = 'block';
@@ -301,7 +447,24 @@ function closeModal() {
   document.getElementById('image-modal').style.display = 'none';
 }
 
-// Close modal when clicking outside
+document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById('zoom-in').addEventListener('click', zoomIn);
+  document.getElementById('zoom-out').addEventListener('click', zoomOut);
+  document.getElementById('reset-zoom').addEventListener('click', resetZoom);
+
+  const items = document.querySelectorAll('.timeline-item');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  items.forEach(item => observer.observe(item));
+});
+
 window.onclick = function(event) {
   const modal = document.getElementById('image-modal');
   if (event.target == modal) {
