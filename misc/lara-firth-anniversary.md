@@ -17,7 +17,7 @@ Let's take a look at some updated graphs for the same metrics we reviewed last t
 
 _Fig 1: WhatsApp Messages By Month_
 
-![_config.yml]({{ site.baseurl }}/images/fifth_year_anniversary/whatsapp-average-message-length-by-month.png)
+![_config.yml]({{ site.baseurl }}/images/fifth_year_anniversary/wwhatsapp-messages-by-month.png)
 
 _Fig 2: WhatsApp Average Message Length By Month_
 
@@ -37,13 +37,12 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
 
 <div id="timeline-wrapper">
   <div id="timeline-container">
-    <div class="timeline-line"></div>
 
     <article class="timeline-item timeline-emoji">
       <div class="timeline-marker">❤️</div>
       <div class="timeline-body">
         <div class="timeline-head">23 April 2021</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -51,7 +50,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       <div class="timeline-marker">💌</div>
       <div class="timeline-body">
         <div class="timeline-head">17 October 2021</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -61,7 +60,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">19 November 2021</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -71,7 +70,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">10 May 2022</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -81,7 +80,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">17 September 2022</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -91,7 +90,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">30 April 2023</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -101,7 +100,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">4 September 2023</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -110,7 +109,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       <div class="timeline-body">
         <div class="timeline-head">14 October 2023</div>
         <div class="timeline-copy">Our first place at 7 Holbreck Place.</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -120,7 +119,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">18 May 2024</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -130,7 +129,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">12 September 2024</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -140,7 +139,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">14 October 2024</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -150,7 +149,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">31 December 2024</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -159,7 +158,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       <div class="timeline-body">
         <div class="timeline-head">6 March 2025</div>
         <div class="timeline-copy">The renovations begin... and continue.</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -169,7 +168,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">29 March 2025</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -179,7 +178,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">15 November 2025</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
 
@@ -189,7 +188,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">9 March 2026</div>
-        <div class="timeline-note" contenteditable="true"></div>
+        <div class="timeline-note"></div>
       </div>
     </article>
   </div>
@@ -211,7 +210,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
 #timeline-container {
   position: relative;
   overflow: hidden;
-  padding: 20px 0;
+  padding: 40px 0;
   font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -220,40 +219,17 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
   position: absolute;
   left: 50%;
   top: 0;
-  width: 1px;
-  height: 100%;
-  background: rgba(37, 99, 235, 0.2);
-  transform: translateX(-50%);
-}
-
-.timeline-line {
-  display: none;
-}
-
-.timeline-line {
-  position: absolute;
-  left: 50%;
-  top: 0;
   width: 4px;
   height: 100%;
-  background: linear-gradient(180deg, #2563eb 0%, rgba(37,99,235,0.15) 100%);
+  background: rgba(37, 99, 235, 0.2);
   transform: translateX(-50%);
   border-radius: 4px;
 }
 
 .timeline-item {
   position: relative;
-  display: grid;
-  grid-template-columns: 100px minmax(0, 1fr);
-  gap: 22px;
-  align-items: start;
-  padding: 22px 26px;
-  margin-bottom: 32px;
-  background: rgba(255,255,255,0.96);
-  border: 1px solid rgba(148,163,184,0.25);
-  border-radius: 32px;
-  box-shadow: 0 28px 80px rgba(15,23,42,0.08);
-  backdrop-filter: blur(8px);
+  margin: 68px 0;
+  padding: 0;
   opacity: 0;
   transform: translateY(36px);
   transition: opacity 0.85s ease, transform 0.85s ease;
@@ -267,40 +243,74 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
 .timeline-item::before {
   content: '';
   position: absolute;
-  top: 34px;
-  left: calc(50% - 2px);
-  width: 14px;
-  height: 14px;
-  background: white;
+  top: 50px;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  background: #ffffff;
   border: 5px solid #2563eb;
   border-radius: 50%;
   transform: translateX(-50%);
-  z-index: 1;
+  z-index: 2;
 }
 
 .timeline-marker {
-  width: 100px;
-  height: 100px;
-  min-width: 100px;
-  border-radius: 28px;
+  position: absolute;
+  top: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 120px;
+  border-radius: 32px;
   background: linear-gradient(180deg, #eff6ff 0%, #f8fafc 100%);
   border: 1px solid rgba(148,163,184,0.24);
   display: grid;
   place-items: center;
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #2563eb;
+  z-index: 3;
 }
 
 .timeline-marker img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 24px;
+  border-radius: 28px;
 }
 
 .timeline-body {
+  position: relative;
+  width: min(46%, 420px);
+  padding: 22px 20px 20px;
   display: grid;
   gap: 14px;
+}
+
+.timeline-body::before {
+  content: '';
+  position: absolute;
+  top: 46px;
+  width: 42px;
+  height: 3px;
+  background: linear-gradient(90deg, rgba(37, 99, 235, 0.9) 0%, rgba(37, 99, 235, 0.2) 100%);
+}
+
+.timeline-item:nth-child(odd) .timeline-body {
+  margin-right: auto;
+  text-align: right;
+}
+
+.timeline-item:nth-child(odd) .timeline-body::before {
+  right: -42px;
+}
+
+.timeline-item:nth-child(even) .timeline-body {
+  margin-left: auto;
+  text-align: left;
+}
+
+.timeline-item:nth-child(even) .timeline-body::before {
+  left: -42px;
 }
 
 .timeline-head {
@@ -314,15 +324,15 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
 .timeline-copy {
   font-size: 0.98rem;
   color: #475569;
-  line-height: 1.7;
+  line-height: 1.75;
 }
 
 .timeline-note {
-  min-height: 110px;
+  min-height: 130px;
   padding: 18px;
   border-radius: 28px;
   background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
-  border: 1px dashed rgba(148,163,184,0.4);
+  border: 1px dashed rgba(148,163,184,0.3);
   color: #334155;
   font-size: 1rem;
   line-height: 1.75;
@@ -333,11 +343,6 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
 .timeline-note:focus {
   border-color: #2563eb;
   background: #eff6ff;
-}
-
-.timeline-note:empty:before {
-  content: "Add your snippet here...";
-  color: #94a3b8;
 }
 
 .timeline-note:empty:before {
@@ -378,17 +383,20 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
   color: #cbd5e1;
 }
 
-@media (max-width: 740px) {
-  .timeline-item {
-    grid-template-columns: 1fr;
+@media (max-width: 860px) {
+  .timeline-body {
+    width: min(90%, 100%);
   }
 
-  .timeline-item::before {
-    left: 18px;
+  .timeline-item:nth-child(odd) .timeline-body,
+  .timeline-item:nth-child(even) .timeline-body {
+    margin: 0 auto;
+    text-align: left;
   }
 
-  .timeline-marker {
-    margin-left: 0;
+  .timeline-body::before {
+    left: calc(50% - 21px);
+    right: auto;
   }
 }
 </style>
