@@ -33,6 +33,8 @@ Perhaps reviewing message counts and averages no longer reflects how we experien
 
 The data doesn't tell the whole story, so hopefully a timeline of our relationship add's some colour...
 
+_*Note: Availability of "nice" photos was a key factor in an events inclusion in the timeline, an events exclusion does not correspond to it's value_
+
 <div id="timeline-wrapper">
   <div id="timeline-controls">
     <button id="zoom-in">+</button>
