@@ -17,7 +17,7 @@ Let's take a look at some updated graphs for the same metrics we reviewed last t
 
 _Fig 1: WhatsApp Messages By Month_
 
-![_config.yml]({{ site.baseurl }}/images/fifth_year_anniversary/wwhatsapp-messages-by-month.png)
+![_config.yml]({{ site.baseurl }}/images/fifth_year_anniversary/whatsapp-messages-by-month.png)
 
 _Fig 2: WhatsApp Average Message Length By Month_
 
@@ -42,7 +42,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       <div class="timeline-marker">❤️</div>
       <div class="timeline-body">
         <div class="timeline-head">23 April 2021</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">Our first date at Cafe Nero, Guildford</div>
       </div>
     </article>
 
@@ -50,7 +50,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       <div class="timeline-marker">💌</div>
       <div class="timeline-body">
         <div class="timeline-head">17 October 2021</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">The first time we said we loved each other</div>
       </div>
     </article>
 
@@ -60,7 +60,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">19 November 2021</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">Our first Christmas together with ice skating at Somerset House. The first, and only, time Lara beat Matt at something</div>
       </div>
     </article>
 
@@ -70,7 +70,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">10 May 2022</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">Our first holiday to Tenerife</div>
       </div>
     </article>
 
@@ -80,7 +80,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">17 September 2022</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">Our first camping experience in Bourton-on-the-water. The trip had a notable "memorable moment"</div>
       </div>
     </article>
 
@@ -90,7 +90,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">30 April 2023</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">Florence! One of our favourite holidays together.</div>
       </div>
     </article>
 
@@ -100,7 +100,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">4 September 2023</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">We climbed Scafell Pike. One of my favourite activities together</div>
       </div>
     </article>
 
@@ -108,8 +108,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       <div class="timeline-marker">🏡</div>
       <div class="timeline-body">
         <div class="timeline-head">14 October 2023</div>
-        <div class="timeline-copy">Our first place at 7 Holbreck Place.</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">We moved in together!</div>
       </div>
     </article>
 
@@ -119,7 +118,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">18 May 2024</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">A dream trip to Japan. Plenty of evenings spent in game centers</div>
       </div>
     </article>
 
@@ -129,7 +128,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">12 September 2024</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">Cycling in Croatia. Another memory that was later marked by a "momerable moment"</div>
       </div>
     </article>
 
@@ -139,7 +138,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">14 October 2024</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">Pastel de nata in Lisbon</div>
       </div>
     </article>
 
@@ -149,7 +148,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">31 December 2024</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">Lara's favaourite meal ever made. Steak carbonara</div>
       </div>
     </article>
 
@@ -157,8 +156,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       <div class="timeline-marker">🧱</div>
       <div class="timeline-body">
         <div class="timeline-head">6 March 2025</div>
-        <div class="timeline-copy">The renovations begin... and continue.</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">We buy our first house! The renovations begin...(and continue)</div>
       </div>
     </article>
 
@@ -168,7 +166,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">29 March 2025</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">Lara shows off the Rosemeyer skills in decorating. A family trait</div>
       </div>
     </article>
 
@@ -178,7 +176,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">15 November 2025</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">A trip to Cardiff to watch Wales vs Japan rugby</div>
       </div>
     </article>
 
@@ -188,7 +186,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
       </div>
       <div class="timeline-body">
         <div class="timeline-head">9 March 2026</div>
-        <div class="timeline-note"></div>
+        <div class="timeline-note">Our first ski trip to Sälen, Sweden</div>
       </div>
     </article>
   </div>
@@ -432,3 +430,7 @@ window.onclick = function(event) {
   }
 }
 </script>
+
+## Happy Fifth Anniverary
+
+Thank you for a wonderful 5 years, full of great memories. It's been so fun going back through all the photots and remembering the laughs. Here's to the many more to come. I love you.
