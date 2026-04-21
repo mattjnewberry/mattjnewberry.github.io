@@ -469,4 +469,4 @@ window.onclick = function(event) {
 
 ## Happy Fifth Anniverary
 
-Thank you for a wonderful 5 years, full of great memories. It's been so fun going back through all the photots and remembering the laughs. Here's to the many more to come. I love you.
+Thank you for a wonderful 5 years, full of great memories. It's been so fun going back through all the photos and remembering the laughs. Here's to the many more to come. I love you.
