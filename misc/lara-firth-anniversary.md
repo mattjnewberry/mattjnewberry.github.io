@@ -208,7 +208,7 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
 #timeline-container {
   position: relative;
   overflow: hidden;
-  padding: 40px 0;
+  padding: 40px 16px;
   font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -219,17 +219,17 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
   top: 0;
   width: 4px;
   height: 100%;
-  background: rgba(37, 99, 235, 0.2);
+  background: rgba(37, 99, 235, 0.16);
   transform: translateX(-50%);
   border-radius: 4px;
 }
 
 .timeline-item {
   position: relative;
-  margin: 68px 0;
-  padding: 0;
+  margin: 72px 0;
+  padding-top: 88px;
   opacity: 0;
-  transform: translateY(36px);
+  transform: translateY(32px);
   transition: opacity 0.85s ease, transform 0.85s ease;
 }
 
@@ -326,16 +326,52 @@ _*Note: Availability of "nice" photos was a key factor in an event's inclusion i
 }
 
 .timeline-note {
-  min-height: 130px;
-  padding: 18px;
-  border-radius: 28px;
-  background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
-  border: 1px dashed rgba(148,163,184,0.3);
+  min-height: unset;
+  padding: 0;
+  border: none;
+  background: transparent;
   color: #334155;
   font-size: 1rem;
-  line-height: 1.75;
-  outline: none;
-  transition: border-color 0.2s ease, background 0.2s ease;
+  line-height: 1.9;
+}
+
+@media (max-width: 780px) {
+  #timeline-container {
+    padding: 28px 14px;
+  }
+
+  .timeline-item {
+    margin: 50px 0;
+  }
+
+  .timeline-marker {
+    width: 88px;
+    height: 88px;
+    top: 8px;
+    border-radius: 26px;
+  }
+
+  .timeline-body {
+    width: min(100%, 100%);
+    max-width: calc(100% - 32px);
+    margin: 0 auto;
+    text-align: left;
+    padding: 24px 0 0;
+  }
+
+  .timeline-item:nth-child(odd) .timeline-body,
+  .timeline-item:nth-child(even) .timeline-body {
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .timeline-body::before {
+    display: none;
+  }
+
+  .timeline-note {
+    margin-top: 4px;
+  }
 }
 
 .timeline-note:focus {
