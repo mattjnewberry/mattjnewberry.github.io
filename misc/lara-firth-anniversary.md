@@ -17,7 +17,7 @@ Let's take a look at some updated graphs for the same metrics we reviewed last t
 
 _Fig 1: WhatsApp Messages By Month_
 
-![_config.yml]({{ site.baseurl }}/images/fifth_year_anniversary/whatsapp-messages-by-month.png)
+![_config.yml]({{ site.baseurl }}/images/fifth_year_anniversary/whatsapp-average-messages-length-by-month.png)
 
 _Fig 2: WhatsApp Average Message Length By Month_
 
